@@ -1,13 +1,19 @@
 # Landing Page Project
 
-## Table of Contents
+## What is this?
 
-* [Instructions](#instructions)
+This is a project for Udacity's Front End Developer Nanodegree. The basic idea is to take a simple site that they've provided, and build navigation with ES6 JavaScript.
 
-## Instructions
+The first two commits contains the example code, any subsequent commits thereafter will contain my work to deliver on the Project Rubric.
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+## Udacity's suggestions to make the project stand out
 
-To get started, open `js/app.js` and start building out the app's functionality
+I have implemented the first one so far.
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+* Add an active state to your navigation items when a section is in the viewport.
+* Hide fixed navigation bar while not scrolling (it should still be present on page load).
+
+⋅⋅⋅Hint: setTimeout can be used to check when the user is no longer scrolling.
+* Add a scroll to top button on the page that’s only visible when the user scrolls below the fold of the page.
+* Update/change the design/content.
+* Make sections collapsible.

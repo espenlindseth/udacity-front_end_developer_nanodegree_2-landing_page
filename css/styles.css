@@ -1,4 +1,3 @@
-
 /*
  *
  * CSS written based on SMACSS architecture.
@@ -69,6 +68,7 @@ section {
     padding-left: 0;
     margin: 0;
     text-align: right;
+    float: right;
 }
 
 .navbar__menu li {
@@ -81,12 +81,18 @@ section {
     font-weight: bold;
     text-decoration: none;
     color: #000;
+    float: left;
+    cursor: pointer;
 }
 
 .navbar__menu .menu__link:hover {
     background: #333;
     color: #fff;
     transition: ease 0.3s all;
+}
+
+.navbar__menu .menu__link.active {
+    background: #ddd;
 }
 
 /* Header Styles */
@@ -211,14 +217,14 @@ section.your-active-class .landing__container::after {
 
 /* Section Active Styles Keyframe Animations */
 @keyframes rotate {
-	from {
-		transform: rotate(0deg)
-		           translate(-1em)
-		           rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg)
-		           translate(-1em) 
-		           rotate(-360deg);
-	}
+  from {
+    transform: rotate(0deg)
+               translate(-1em)
+               rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg)
+               translate(-1em) 
+               rotate(-360deg);
+  }
 }
